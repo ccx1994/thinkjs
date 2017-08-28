@@ -4,5 +4,8 @@ export default [
     }],
     ["users/getUserGoodAt", {
         post: "home/users/getusergoodat"
+    }],
+    ["users/addUser", {
+        post: "home/users/adduser"
     }]
 ];

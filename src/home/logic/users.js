@@ -28,4 +28,14 @@ export default class extends think.logic.base {
         }
 
     }
+
+    adduserAction() {
+
+        //预先逻辑处理入参 判断id不能为空
+        const params = this.post();
+        if (think.isEmpty(params.goodAt)) {
+            this.json(errModule.NULL_ERR('goodAt'));
+        }
+
+    }
 }

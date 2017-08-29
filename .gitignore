@@ -32,4 +32,6 @@ output.tar.gz
 
 app/
 
+.vscode/
+
 runtime/
